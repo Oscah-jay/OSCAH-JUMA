@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Debt Paydown</title>
+</head>
+
+<nav>
+    <a href="./index.html"><h3>Home</h3></a>
+</nav>
+</div>
+<body>
+
+    <div class="debtpay">
+        <img src="./assets/debtpay.png" alt="debtpay" width="1350">
+    </div>
+   
+
+    <div class="debt-paydown-section">
+
+        <form id="debtPaydownForm">
+
+
+            <h3>Snowball vs. Avalanche Method</h3>
+            <p>The Debt Paydown Calculator allows you to choose between the snowball and avalanche methods:</p>
+            <input type="radio" name="paydownMethod" value="snowball" checked> Snowball Method
+            <input type="radio" name="paydownMethod" value="avalanche"> Avalanche Method
+
+            <h3>Debt Details</h3>
+            <div class="debt-entry">
+                <label for="balance1">Outstanding Balance:</label>
+                <input type="number" class="balance" id="balance1" placeholder="Enter balance" required>
+
+                <label for="interestRate1">Interest Rate (%):</label>
+                <input type="number" class="interest-rate" id="interestRate1" placeholder="Enter interest rate" required>
+
+                <label for="minPayment1">Minimum Monthly Payment:</label>
+                <input type="number" class="min-payment" id="minPayment1" placeholder="Enter minimum payment" required>
+            </div>
+
+
+            <button type="button" id="calculateButton">Calculate</button>
+            <div id="result"></div>
+        </form>
+    </div>
+
+
+    <script src="scripts.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+          width: 491px;
+flex-shrink: 0;
+background: url(assets/sign.png) ;
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: center;
+align-items: center;
+}
+
+#signup-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 600px;
+  justify-content: center;
+  align-items: center;
+  color: #f5efef;
+  
+}
+
+label {
+  color: #f5efef;
+text-align: center;
+font-family: Inria Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+input {
+  width: 476px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #000;
+background: #FDF9F9;
+}
+
+button {
+  width: 184px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 9px;
+background: #6ee09e;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+    </style>
+
+  
+  <div id="signup-container">
+    <form id="logingif">
+      <img src="./assets/login-.gif" alt="login" width="500" height="400">
+    </form>
+    
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+      <label for="new-username">Username:</label>
+      <input type="text" id="new-username" name="new-username" required>
+    </form>
+
+    <form id="password">
+      <label for="new-password">Password:</label>
+      <input type="password" id="new-password" name="new-password" required>
+    </form>
+
+    <form id="confirm-password">
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+    </form>
+
+      
+      
+      <button type="button" onclick="validateSignUp()">Sign Up</button>
+    </form>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

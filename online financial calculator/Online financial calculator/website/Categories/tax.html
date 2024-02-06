@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tax</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="./index.html"><h3>Home</h3></a>
+    </nav>
+
+    <div class="tax">
+        <img src="./assets/tax.png" alt="tax" width="1330">
+    </div>
+    
+    <div class="tax-section">
+        <h2>Tax Calculator</h2>
+        <p>Estimate your income tax liability with our Tax Calculator...</p>
+
+        <form id="taxCalculatorForm">
+
+            <h3>Choose Tax Category</h3>
+            <label for="taxType">Select Tax Category:</label>
+            <select id="taxType" name="taxType">
+                <option value="individual">Individual</option>
+                <option value="business">Business</option>
+            </select>
+
+            <h3>Enter Details</h3>
+            <label for="income">Income:</label>
+            <input type="number" id="income" placeholder="Enter income" required>
+
+            <label for="deductions">Deductions:</label>
+            <input type="number" id="deductions" placeholder="Enter deductions" required>
+
+            <label for="credits">Credits:</label>
+            <input type="number" id="credits" placeholder="Enter credits" required>
+
+            <button type="button" id="calculateButton">Calculate</button>
+
+            <h3>Results</h3>
+            <p>Estimated Tax Liability: <span id="result"></span></p>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

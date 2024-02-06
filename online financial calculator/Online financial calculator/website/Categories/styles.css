@@ -1,0 +1,598 @@
+nav {
+  background-color: #3498db;
+  padding: 5px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 20px;
+  width: fit-content;
+
+}
+
+nav a:hover {
+  background-color: #2980b9;
+}
+
+
+
+h1{
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 30px;
+    position: relative;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(assets/sign.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+  padding: 0cap;
+  
+}
+.image{
+  position: absolute;
+  max-width: 100%;
+  padding-top: 100px;
+  padding-left: 10px;
+  padding-right: 300px;
+
+
+}
+.comp{
+  position: relative;
+  padding-top: 70px;
+  justify-content: left;
+  padding-left: 0;
+  padding-right: 20px;
+  max-width: 100%;
+}
+.mortgageform{
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  max-height: fit-content;
+  position: relative;
+  margin-top: 2310px;
+}
+#mortgageForm{
+  max-width: fit-content;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  border-radius: 20px;
+  margin-right: 20px;
+  border-spacing: 20px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+@keyframes blink{
+  0%{
+    border-color: rgb(89, 0, 255);
+  }
+  50%{
+    border-color: transparent;
+    
+  }
+  100%{
+    border-color: rgb(89, 0, 255) ;
+  }
+}
+.end{
+  background-image: url(assets/home.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: fit-content;
+  margin-top: 5px;
+  margin-left: 400px;
+  padding: 10px;
+  border: 20px solid rgb(66, 8, 175);
+  border-radius: 10px;
+  width: 100%;
+  font-size: larger;
+  font-weight: 900;
+  animation: blink 3s infinite;
+  margin-bottom: 10px;
+}
+#end{
+  margin-left: 400px;
+  border: #333333;
+  max-width: fit-content;
+  text-decoration: dotted;
+}
+.sub-main{
+  border-radius: 5px;
+  padding-left: 200px;
+  text-align: center;
+  position: relative;
+  border: 6px;
+
+}
+.header{
+
+  border-radius: 10px;
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: cadetblue;
+  text-align: center;
+  width: fit-content;
+
+}
+.sub-header{
+  border-radius: 10px;
+  border-left: 100px;
+  display: flex;
+  background-color: cadetblue;
+  text-align: center;
+  width: fit-content;
+}
+.home-section{
+  position: absolute;
+  width: 600px;
+  border-radius: 0%;
+
+
+}
+.featured-calculators{
+  border-radius: 0%;
+}
+.img{
+  margin-bottom: 10px;
+}
+
+.usage{
+  position: relative;
+}
+
+
+
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.features {
+    margin-top: 2%;
+    padding: 4rem;
+    display: flexbox;
+    justify-content: space-between;
+  }
+  .sub-main-explore {
+    padding-top: 0% !important;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .home.gif{
+    border-radius: 50%;
+    position: relative;
+    padding-right: 3rem;
+  }
+  .each-feature {
+    border: 5px solid grey;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+.calculator1{
+  padding-left: 800px;
+}
+  
+
+#result {
+    margin-top: 15px;
+}
+.title{
+  position: absolute;
+  top: 5px;
+  right: 1px;
+}
+.calc{
+  position: absolute;
+  left: 800px;
+  bottom: 1700px;
+}
+#calculator1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  max-height: fit-content;
+  position: relative;
+  margin-top: 100px;
+}
+.Currency-rates{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  max-height: fit-content;
+  position: relative;
+  margin-left: 450px;
+}
+.Calculation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  max-height: fit-content;
+  position: relative;
+  margin-top: 100px;
+}
+.calculator-section,
+.Interest-Rates{
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  max-height: fit-content;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+}
+.currencies{
+  max-width: 100%;
+  padding-top: 100px;
+  margin-left: 0cap;
+
+}
+.links {
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between ;
+    padding: 5px;
+    right: 10px;
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: cadetblue;
+  }
+  .table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: aquamarine;
+  }
+  content{
+    margin-top: 100px;
+    padding: 20px;
+    z-index: 1;
+  }
+    
+ td, th {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        background-color: aquamarine;
+
+      }
+
+      
+.debt-paydown-section{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#debtPaydownForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  max-height: fit-content;
+  max-width: fit-content;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-top: 10px;
+
+}
+
+.debtpay{
+  padding-top: 100px;
+}
+
+.alignment-scale {
+  width: 72%;
+  position: relative;
+  margin-left: 43px;
+  height: 80px;
+
+}
+
+.slider {
+  width: 100%;
+  height: 40px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.choice-marker {
+  width: 40px;
+  height: 40px;
+  background-color: #aa1119;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.choice-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.investment{
+  padding-top: 100px;
+}
+
+#investmentRetirementForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  width: 800px;
+  max-height: fit-content;
+  position: relative;
+  margin-top: 100px;
+}
+
+.tax{
+  padding-top: 100px;
+}
+
+
+
+.tax-section {
+  max-width: 200px;
+  margin-left: 20px auto;
+  padding: 20px;
+}
+#taxCalculatorForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(236, 226, 226);
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  width: 700px;
+  max-height: fit-content;
+  position: relative;
+  margin-top: 100px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+select,
+input {
+  width: 150px;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  font-weight: bold;
+  color: #3498db;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+.wrapper{
+  display: inline-flex;
+  list-style: none;
+}
+.wrapper .icon{
+  position: relative;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip{
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before{
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip{
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before{
+  background-color: #1877f2;
+  color: #ffffff;
+}
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before{
+  background-color: #1da1f2;
+  color: #ffffff;
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before{
+  background: #e4405f;
+  color: #ffffff;
+}
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before{
+  background: #333333;
+  color: #ffffff;
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before{
+  background: #cd201f;
+  color: #ffffff;
+}
+
+

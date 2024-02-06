@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+
+</head>
+<body>
+
+<nav>
+    <a href="#"><h3>Home</h3></a>
+    <a href="./about.html"><h3>About</h3></a>
+    <a href="./compound interest.html"><h3>Compound Interest</h3></a>
+    <a href="./currency exchange.html"><h3>Currency Exchange</h3></a>
+    <a href="./debt paydown.html"><h3>Debt Paydown</h3></a>
+    <a href="./investment and retirement.html"><h3>Investment and Retirement</h3></a>
+    <a href="./mortgage and loan.html"><h3>Mortgage and Loan</h3></a>
+    <a href="./tax.html"><h3>Tax</h3></a>
+</nav>
+    
+  </div>
+  
+
+    
+    
+    <h2>Welcome to the Financial Calculator
+        <img src="./assets/wave.gif" alt="hi" width="300" height="300">
+    </h2>
+    <p>This is the home page.</p>
+    
+    <div class="home-section">
+        <h1>Welcome to Finance CALC
+        </h1>
+        <p>Your go-to destination for a variety of financial calculators 
+            to help you make informed decisions and plan for your financial future.</p>
+        <div class="usage">
+            <img src="./assets/key.png" alt="key" width="600">
+            <img src="./assets/usage.png" alt="usage" width="600" >
+            <style>
+                .usage img:not(:last-child) {
+                    margin-top: 10px;
+                    margin: 0%;
+                }
+            </style>
+            
+        </div>
+
+
+
+        
+
+        <p>Explore our financial calculators and empower yourself
+            to make better financial decisions. Whether you're planning for the future,
+             managing debt, or navigating tax obligations, Finance CALC has you covered.</p>
+        
+        <div class="end">
+            <div id="end">
+                <p>Start calculating now and take control of your financial journey!</p>
+
+            </div>
+        </div>
+ 
+    </div>
+
+    <script src="scripts.js"></script>
+<div class="calculator1">
+    <div id="calculator">
+        <link rel="stylesheet" href="calc.css">
+        <input type="text" id="display" readonly>
+        <br>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('+')" class="operator">+</button>
+        <br>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('-')" class="operator">-</button>
+        <br>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('*')" class="operator">*</button>
+        <br>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="calculate()" class="equal">=</button>
+        <button onclick="appendValue('/')" class="operator">/</button>
+        <script src="calculator.js"></script>
+    
+        
+    </div>
+    
+
+</div>
+
+    
+    
+    
+
+
+</body>
+</html>
