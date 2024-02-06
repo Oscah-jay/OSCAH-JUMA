@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 0;
+      margin: 0;
+      width: fit-content;
+    }
+    .title-div {
+      display: flex;
+      justify-content: space-between ;
+      padding: 0;
+      position: fixed;
+      width: 100%;
+      background-color: rgb(238, 236, 236);
+    }
+
+    .links {
+      display: flex;
+      gap: 2rem;
+      margin-right: 1rem;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .main-div1 {
+      display: flex;
+      height: 150%;
+    }
+    .sub-main1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem;
+      padding-top: 15%;
+      text-align: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .sub-main2 {
+      display: flex;
+      width: 100%;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      padding-top: 12%;
+    }
+    .creativity {
+      width: 50%;
+    }
+    .audience {
+      padding: 1rem;
+    }
+    .users {
+      display: flex;
+      gap: 1rem;
+    }
+    .Health Enthusiasts{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 1rem;
+    }
+    
+    .Community Seekers{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 1rem;
+    }
+    
+    .parents and Families{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 1rem;
+    }
+    
+    .Educators {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 1rem;
+    }
+    .home.gif{
+      border-radius: 50%;
+      position: relative;
+      padding-right: 3rem;
+    }
+
+    .header-audience {
+      font-weight: 700;
+    }
+    .site-structure {
+      padding: 1rem;
+    }
+    .structure {
+      border: none;
+    }
+    .specifications {
+      padding: 1rem;
+    }
+    .competitor {
+      padding: 1rem;
+    }
+    .c-header {
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      body {
+        width: 100vw;
+      }
+      .links {
+        display: none;
+      }
+      .title-div {
+        background: none;
+        width: min-content;
+        position: relative;
+      }
+      .main-div1 {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+      .sub-main1 {
+        width: 150%;
+        padding: 2rem;
+        position: relative;
+        text-align: center;
+      }
+      .sub-main2 {
+        width: 100%;
+        padding-right: 2rem;
+        text-align: center;
+        position: static;
+      }
+      .users {
+        flex-direction: column;
+      }
+    }
+  </style>
+  <body>
+    <div class="title-div">
+      <h2 class="t1">Smashing Websites LTD</h2>
+      <div class="links">
+        <a href="#"><h3>Home</h3></a>
+        <a href="./about.html"><h3>About</h3></a>
+        <a href="./Activity Exploration.html"><h3>Activity Exploration</h3></a>
+        <a href="./Community Hub.html"><h3>Community Hub</h3></a>
+        <a href="./Progress Tracking.html"><h3>Progress Tracking</h3></a>
+      </div>
+    </div>
+    <div class="sub-main-explore">
+      <div class="img">
+        <img class="home-gif" src="./assets/home.gif" alt="home"/>
+      </div>
+    </div>
+    <div class="main-div1">
+      <div class="sub-main1">
+        <h2 class="t2">Objective/Goals</h2>
+        <p>
+          Our key objective is to serve our customers and ensure utmost satisfaction on their side
+         We strive to provide the best services to our customers in whatever field they
+         may want to venture and ensure they receive the best services in either
+         Our objectives include and are not limited to: <li>
+         1.Promote well-being and to encourage visitors to adopt a healthier lifestyle by engaging in activities.</li>
+         <li>2.Diverse interests which is meant to cater and attract a wide range of diverse audience.</li>
+         <li>3.Educational engagement to foster intellecual growth by offering informative content.</li>
+         <li>4.Community building to create a sense of community among users.</li>
+         <li>5.Encourage exploration by encouraging users to explore new interests and activities.
+         </li>
+        </p>
+      </div>
+
+      <div class="sub-main2">
+      </div>
+    </div>
+    <div class="audience">
+      <h2>Key Audience(s)</h2>
+      <div class="users">
+        <div class="Health Enthusiasts">
+          <p class="header-audience">Health Enthusiasts</p>
+          <p>
+            Individuals interested in physical fitness, wellness and adopting a 
+            healthy lifestyle.
+          </p>
+        </div>
+        <div class="Community Seekers">
+          <p class="header-audience">Community Seekers</p>
+          <p>Individuals looking to connect with like-minded individuals
+            fostering a sense of community around shared interests.</p>
+        </div>
+        <div class="Parents and Families">
+          <p class="header-audience">Parents and Families</p>
+          <p>Families seeking activities that can be enjoyed together combining
+            both physical and intellectual elements.
+          </p>
+        </div>
+        <div class="Educators">
+          <p class="header-audience">Educators</p>
+          <p>
+            Teachers and educators interested in incorporating engaging and 
+            educational activities into their teaching methods.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="site-structure">
+      <h2>Provisional Site Structure</h2>
+      <div class="Health Enthusiasts structure">
+        <p class="header-audience">Home</p>
+        <p>Introduction and featured activities.</p>
+      </div>
+      <div class="Community Seekers structure">
+        <p class="header-audience">Activities</p>
+        <p>
+          List of physical and mental activities with detailed descriptions.
+        </p>
+      </div>
+      <div class="Parents and Families structure">
+        <p class="header-audience">Resources</p>
+        <p>
+          A collection of articles, videos, and books for intellectual
+          stimulation.
+        </p>
+      </div>
+      <div class="Educators structure">
+        <p class="header-audience">Blog</p>
+        <p>User-generated content and stories about their experiences.</p>
+      </div>
+      <div class="seniors structure">
+        <p class="header-audience">Contact</p>
+        <p>A form to get in touch with us.</p>
+      </div>
+    </div>
+    <div class="specifications">
+      <h2>Functional Specification</h2>
+      <ul>
+        <li>
+          Interactive activities should include quizzes, workouts, and puzzles.
+        </li>
+        <li>Users can submit their own content to the blog.</li>
+        <li>
+          Activity suggestions should be filterable by difficulty level and
+          duration.
+        </li>
+        <li>The progress tracking form should collect user inquiries.</li>
+      </ul>
+    </div>
+    <div class="competitor">
+      <h2 class="c-header">Competitor Analysis</h2>
+      <p>
+        We'll research existing platforms offering similar services. Some
+        potential competitors are:
+      </p>
+      <ol>
+        <li>
+          <a href="https://www.examplecompetitor1.com">ExampleCompetitor1.com</a
+          >: They offer a variety of activities and resources.
+        </li>
+        <li>
+          <a href="https://www.examplecompetitor2.com">ExampleCompetitor2.com</a
+          >: Known for their engaging user-generated content.
+        </li>
+        <li>
+          <a href="https://www.examplecompetitor3.com">ExampleCompetitor3.com</a
+          >: Focuses on physical fitness and well-being.
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>

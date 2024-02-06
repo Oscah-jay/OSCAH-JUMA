@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .title-div {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      background-color: rgb(238, 236, 236);
+    }
+    .links {
+      display: flex;
+      gap: 2rem;
+      margin-right: 2rem;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .sub-main-about {
+      padding-top: 15% !important;
+      padding: 1rem;
+      display: flex;
+    }
+    .about-content{
+        width: 50%;
+    }
+    .about-image{
+        width: 50%;
+    }
+    .img{
+        width: 500px;
+    }
+    @media (max-width: 600px) {
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      .links {
+        display: none;
+      }
+      .title-div {
+        background: none;
+        width: 100%;
+
+      }
+      .main {
+        flex-direction: column-reverse;
+      }
+      .sub-main-about {
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column-reverse;
+      }
+      .about-content{
+        width: 100%;
+      }
+      .about-image{
+        width: 100%;
+        display: block;
+      }
+      .img{
+        width: 300px;
+        margin-top: 1rem;
+
+
+      }
+      
+      
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="title-div">
+        <h2 class="t1">Smashing Websites LTD </h2>
+        <div class="links">
+        <a href="./index.html"><h3>Home</h3></a>
+        <a href="#"><h3>About</h3></a>
+        <a href="./Activity Exploration.html"><h3>Activity Exploration</h3></a>
+        <a href="./Community Hub.html"><h3>Community Hub</h3></a>
+        <a href="./Progress Tracking.html"><h3>Progress Tracking</h3></a>
+      </div>
+      </div>
+      <div class="sub-main-about">
+        <div class="about-content">
+        <h2>About Us</h2>
+            <p>Welcome to our mini site dedicated to promoting mental and physical well-being. Our mission is to inspire and motivate you to explore new interests, engage in physical activities, and stimulate your intellectual thinking.</p>
+            <p>Our team is passionate about creating a platform where you can find a variety of activities, resources, and community support to enhance your overall well-being.</p>
+        </section>
+        </div>
+        <div class="about-image">
+            <img class="img animated" src="./assets/Design-inspiration.gif"/>
+            <!-- <video class="img" src="./assets/Design-inspiration.gif"></video> -->
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

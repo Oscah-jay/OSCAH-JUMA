@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Hub</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .title-div {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      background-color: rgb(238, 236, 236);
+    }
+    .links {
+      display: flex;
+      gap: 2rem;
+      margin-right: 2rem;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .sub-main-explore {
+      padding-top: 8% !important;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .img {
+      display: flex;
+      justify-content: center;
+    }
+    .blogging-gif {
+      border-radius: 50%;
+    }
+
+    .explore-title {
+      text-align: center;
+    }
+    .features {
+      margin-top: 2%;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    .each-feature {
+      border: 1px solid grey;
+      padding: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .each-feature:hover {
+      background-color: rgb(223, 218, 218);
+      border: none;
+    }
+    .feature-titles {
+      font-weight: 700;
+    }
+    @media (max-width: 600px) {
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      .links {
+        display: none;
+      }
+      .community-gif{
+        border-radius: 10%;
+        position: relative;
+      }
+      .title-div {
+        background: none;
+        width: 100%;
+      }
+      .features {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        padding: 0%;
+      }
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="title-div">
+        <h2 class="t1">Smashing Websites LTD</h2>
+        <div class="links">
+          <a href="./index.html"><h3>Home</h3></a>
+          <a href="./about.html"><h3>About</h3></a>
+          <a href="./Activity Exploration.html"><h3>Activity Exploration</h3></a>
+          <a href="#"><h3>Community Hub</h3></a>
+          <a href="./Progress Tracking.html"><h3>Progress Tracking</h3></a>
+        </div>
+      </div>
+      <div class="sub-main-explore">
+        <div class="img">
+          <img
+            class="blogging-gif"
+            src="./assets/blogging2.gif"
+            alt="blogging"
+          />
+        </div>
+        <div class="explore-text-main">
+          <h2 class="explore-title">Explore our Communities</h2>
+          <p>
+            Welcome to the Community Hub. Here we share incorporative and challenging quizzes 
+            related to our communities. Here, you can implement discussion forums or chat rooms 
+            for users to interact and share experiences. It also allows users to create and join 
+            interest groups.
+          </p>
+
+          <!-- <p>We offer a wide range of interactive activities that include</p> -->
+        </div>
+      </div>
+      <div class="features">
+        <article class="each-feature">
+          <p class="feature-titles">Weekly Challenges</p>
+          <p>
+            Create and promote weekly challenges related to physical and intellectual
+            activities according to the users interests. It encourages users to participate, 
+            share their experiences and compete for recognition.
+          </p>
+        </article>
+        <article class="each-feature">
+          <p class="feature-titles">Fitness Buddies Matching</p>
+          <p>
+            Meant to implement a feature for users to find fitness buddies with similar
+            interests and ideologies. Meant to facilitate connections between users
+            aiming to engage joint physical activities.
+          </p>
+        </article>
+        <article class="each-feature">
+          <p class="feature-titles">
+            Virtual Meetups
+          </p>
+          
+          <p>
+            Find or organize virtual meetups or webinars with experts in various fields
+            or communities. It will allow users to join, ask questions and discuss 
+            topics of interest.
+          </p>
+          
+        </article>
+        
+      </div>
+      <div class="img">
+        <img
+          class="community.gif"
+          src="./assets/community.gif"
+          alt="community"
+        />
+    </div>
+  </body>
+</html>
